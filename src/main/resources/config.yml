@@ -1,0 +1,39 @@
+# メッセージ設定と有効化/無効化のオプション
+# この設定ファイルのフォーマット
+# {player} - プレイヤー名に置き換え
+# {server} - サーバー名に置き換え
+# {fromServer} - 元サーバー名に置き換え
+
+
+# プレイヤーがネットワークに接続したときのメッセージ
+# {player} はプレイヤー名に置き換えられます
+enabled:
+  joinNetwork: true
+messages:
+  joinNetwork: "&e{player}がネットワークに接続しました。"
+
+  # プレイヤーが別のサーバーに移動したときのメッセージ
+  # {player} はプレイヤー名に、{server} は移動先サーバー名に置き換えられます
+  switchServer: "&e{player}が{server}に移動しました。"
+
+  # プレイヤーが特定のサーバーに入室したときのメッセージ
+  # {player} はプレイヤー名に、{fromServer} は移動元サーバー名に置き換えられます
+  joinServer: "&e{player}が{fromServer}から入室しました。"
+
+  # プレイヤーがネットワークを退出したときのメッセージ
+  # {player} はプレイヤー名に置き換えられます
+  leaveNetwork: "&e{player}がネットワークから退出しました。"
+
+# 各メッセージを有効または無効にする設定
+enabled:
+  joinNetwork: true  # ネットワーク接続メッセージを有効化するか
+  switchServer: true  # サーバー移動メッセージを有効化するか
+  joinServer: true  # サーバー入室メッセージを有効化するか
+  leaveNetwork: true  # ネットワーク退出メッセージを有効化するか
+
+# サーバー名の設定
+# サーバー名を表示するときに使用されます
+servers:
+  hub: "HUB鯖"  # 'hub' サーバーを "HUB鯖" と表示
+  server1: "サーバー1"  # 'server1' サーバーを "サーバー1" と表示
+  server2: "サーバー2"  # 'server2' サーバーを "サーバー2" と表示

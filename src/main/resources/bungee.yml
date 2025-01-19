@@ -1,0 +1,5 @@
+name: ServerMoveMessage
+version: '1.0'
+main: com.koirdsuzu.servermovemessage.Servermovemessage
+author: koirdsuzu
+description: Mod that allows you to fly in shift mode.
